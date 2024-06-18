@@ -1,5 +1,3 @@
-package chapter36;
-
 import java.util.Calendar;
 import java.util.TimeZone;
 import java.util.GregorianCalendar;
@@ -17,7 +15,7 @@ import javafx.util.Duration;
 public class WorldClock extends BorderPane {
   private TimeZone timeZone = TimeZone.getTimeZone("EST");
   private Locale locale = Locale.getDefault();
-  private chapter14.ClockPane clock = new chapter14.ClockPane(); // Still clock
+  private ClockPane clock = new ClockPane(); // Still clock
   private Label lblDigitTime = new Label();
 
   public WorldClock() {
